@@ -1,2 +1,2 @@
 # rock-paper-scissors
-The OG rock paper scissors game
+The OG rock paper scissors game in the Console 
