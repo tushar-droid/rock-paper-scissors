@@ -102,8 +102,10 @@ function playagain(){
     })
 
     btn_n.addEventListener("click", () =>{
-        window.open('', '_self', '')
         window.close();
+        const body = document.querySelector('.container');
+        body.style= "font-size:32px; color:white";
+        body.textContent= "Have a Nice day!!";
     })
 
 
