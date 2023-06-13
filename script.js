@@ -5,8 +5,6 @@ function getComputerChoice(){
 }
 
 function playRound(PlayerSelection, ComputerSelection){
-    console.log('Computer Choice: '+ ComputerSelection);
-    console.log('PlayerSelection: '+ PlayerSelection);
     if(PlayerSelection=='rock'){
         if(ComputerSelection=='paper'){
             computer_score++;
@@ -90,12 +88,10 @@ function printOnScreen(winner){
 
 
 function playagain(){
-
     const btn = document.querySelectorAll('.choice-buttons > button');
     btn.forEach(e =>{
         e.disabled=true;
     })    
-    console.log("play again used");
     const play_again_box= document.querySelector('.play_again');
     play_again_box.style= "display:block";
     const btn_y= document.querySelector('.ch_yes')
