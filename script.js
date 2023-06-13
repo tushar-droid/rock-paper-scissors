@@ -102,6 +102,7 @@ function playagain(){
     })
 
     btn_n.addEventListener("click", () =>{
+        window.open('', '_self', '')
         window.close();
     })
 
