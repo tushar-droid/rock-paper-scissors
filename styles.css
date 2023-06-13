@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color:#db5461 ;
+}
+
+button{
+    background-color: #3D5467;
+    border: solid #686868;
+    padding: 12px;
+    border-radius: 8px;
+    color: #f1edee;
+}
+.choice-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap:16px;
+    padding-bottom:50px;
+}
+
+.container{
+    border: solid #686963;
+    border-radius: 15px;
+    margin-top: 10%;
+    padding: 5%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #8aa29e;
+    color:#f1edee;
+}
+
+.result{
+    height: 20px;
+}
+
+.play_again{
+    display:none;
+    
+}
